@@ -3,11 +3,11 @@ import { ExternalLink } from "lucide-react";
 const projects = [
   { title: "AIropa", description: "AI-powered European news aggregator.", url: "https://airopa.news" },
   { title: "XueCodex", description: "Personal knowledgebase powered by RAG infrastructure.", url: "https://xuecodex.tech/" },
-  { title: "BittyScout", description: "Intelligent scouting and research automation tool.", url: "#" },
+  { title: "Kilo Learn", description: "Hackathon-winning adaptive learning agent that prevents cognitive offloading in AI-assisted coding. Features auto-calibrating comprehension checks and a persistent learning tracker.", url: "https://devpost.com/software/kilo-learn-anti-cognitive-offloading-for-ai-assisted-coding" },
   { title: "BuildMap", description: "Architecture Guidance for Vibe Coders.", url: "https://buildmap.dev/" },
   { title: "MythosQuest", description: "Interactive storytelling engine rooted in mythology.", url: "https://mythosquest.bittygpt.com/auth/login" },
   { title: "Spellweaver's Grimoire", description: "Prompt Engineering learning tool rooted in magic.", url: "https://grimoire.bittygpt.com/" },
-  { title: "BittyNews", description: "Curated, AI-summarized news for busy builders.", url: "#" },
+  { title: "BittyScout", description: "Intelligent scouting and research automation tool.", url: "#" },
 ];
 
 const Projects = () => (
