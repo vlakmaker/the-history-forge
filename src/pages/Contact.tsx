@@ -2,7 +2,9 @@ import { Mail, Linkedin } from "lucide-react";
 
 const Contact = () => (
   <section className="container mx-auto px-4 md:px-8 py-16 md:py-24 max-w-2xl">
-    <h1 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-8">Contact</h1>
+    <h1 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-3">Contact</h1>
+    <p className="text-lg text-foreground/80 mb-8">Vera Lakmaker | Historian in the Loop</p>
+    <div className="editorial-rule-gold mb-8" />
     <p className="text-foreground/90 leading-relaxed mb-10">
       Want to collaborate, chat, or just say hello? Reach out below.
     </p>
@@ -15,7 +17,7 @@ const Contact = () => (
         <span>vera@historianintheloop.com</span>
       </a>
       <a
-        href="https://linkedin.com"
+        href="https://www.linkedin.com/in/vlakmaker/"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-3 text-foreground hover:text-accent transition-colors group"
