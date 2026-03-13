@@ -42,10 +42,10 @@ const Newsletter = () => {
 
   return (
     <section className="container mx-auto px-4 md:px-8 py-16 md:py-24 max-w-5xl">
-      <p className="text-sm uppercase tracking-[0.2em] text-muted-foreground mb-3">Newsletter</p>
-      <h1 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-3">Historian in the Loop</h1>
-      <div className="editorial-rule-gold mb-8" />
-      <div className="max-w-3xl space-y-5 text-foreground/90 leading-relaxed mb-10">
+      <p className="text-sm uppercase tracking-[0.2em] text-muted-foreground mb-3 text-center">Newsletter</p>
+      <h1 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-3 text-center">Historian in the Loop</h1>
+      <div className="editorial-rule-gold mb-8 mx-auto" />
+      <div className="max-w-3xl mx-auto space-y-5 text-foreground/90 leading-relaxed mb-10 text-center">
         <p>
           A newsletter that applies historical pattern recognition to what's happening in AI right now.
           Each edition picks a development in AI or automation and traces it back — finding the echoes,
@@ -56,7 +56,7 @@ const Newsletter = () => {
         </p>
       </div>
 
-      <div className="grid gap-6 sm:grid-cols-2 max-w-3xl mb-16">
+      <div className="grid gap-6 sm:grid-cols-2 max-w-3xl mx-auto mb-16">
         <a
           href="https://newsletter.historianintheloop.com/subscribe"
           target="_blank"
@@ -95,8 +95,8 @@ const Newsletter = () => {
       </div>
 
       {/* Latest Editions */}
-      <h2 className="font-serif text-2xl font-semibold text-foreground mb-2">Latest Editions</h2>
-      <div className="editorial-rule mb-8" />
+      <h2 className="font-serif text-2xl font-semibold text-foreground mb-2 text-center">Latest Editions</h2>
+      <div className="editorial-rule mb-8 mx-auto" />
 
       {isLoading && (
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
