@@ -1,13 +1,13 @@
 import { ExternalLink } from "lucide-react";
 
 const projects = [
-  { title: "AIropa", description: "AI-powered exploration of European cultural heritage." },
-  { title: "XueCodex", description: "Bridging ancient Chinese texts with modern NLP techniques." },
-  { title: "BittyScout", description: "Intelligent scouting and research automation tool." },
-  { title: "BuildMap", description: "Visual mapping of software build and deployment pipelines." },
-  { title: "MythosQuest", description: "Interactive storytelling engine rooted in mythology." },
-  { title: "Spellweaver's Grimoire", description: "A creative AI tool for crafting narrative spells and lore." },
-  { title: "BittyNews", description: "Curated, AI-summarized news for busy builders." },
+  { title: "AIropa", description: "AI-powered European news aggregator.", url: "https://airopa.news" },
+  { title: "XueCodex", description: "Personal knowledgebase powered by RAG infrastructure.", url: "https://xuecodex.tech/" },
+  { title: "BittyScout", description: "Intelligent scouting and research automation tool.", url: "#" },
+  { title: "BuildMap", description: "Architecture Guidance for Vibe Coders.", url: "https://buildmap.dev/" },
+  { title: "MythosQuest", description: "Interactive storytelling engine rooted in mythology.", url: "https://mythosquest.bittygpt.com/auth/login" },
+  { title: "Spellweaver's Grimoire", description: "Prompt Engineering learning tool rooted in magic.", url: "https://grimoire.bittygpt.com/" },
+  { title: "BittyNews", description: "Curated, AI-summarized news for busy builders.", url: "#" },
 ];
 
 const Projects = () => (
@@ -19,7 +19,9 @@ const Projects = () => (
       {projects.map((p, i) => (
         <a
           key={p.title}
-          href="#"
+          href={p.url}
+          target={p.url !== "#" ? "_blank" : undefined}
+          rel={p.url !== "#" ? "noopener noreferrer" : undefined}
           className="group block rounded-lg border border-border bg-card p-8 md:p-10 hover:border-accent/50 hover:shadow-lg transition-all animate-fade-in"
           style={{ animationDelay: `${i * 0.05}s` }}
         >

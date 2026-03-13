@@ -4,14 +4,11 @@ const About = () => (
       {/* Photo column */}
       <div className="md:col-span-2">
         <div className="aspect-[3/4] rounded-lg bg-card border border-border overflow-hidden relative sticky top-28">
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-muted-foreground/40">
-            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-              <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
-              <circle cx="8.5" cy="8.5" r="1.5" />
-              <polyline points="21 15 16 10 5 21" />
-            </svg>
-            <span className="mt-3 text-sm font-serif italic">Photo placeholder</span>
-          </div>
+          <img
+            src="/vera-photo.jpg"
+            alt="Vera Lakmaker"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
         </div>
       </div>
 
@@ -25,13 +22,28 @@ const About = () => (
         <div className="editorial-rule-gold mb-8" />
         <div className="space-y-5 text-foreground/90 leading-relaxed text-[1.05rem]">
           <p>
-            I started as a historian — studying how societies adopt new technologies, how they resist them, and what happens in between. Then I became an AI &amp; automation engineer and started building the very things I used to study.
+            I didn't start in AI. I started in stories. One in particular: how humans interact with technology.
           </p>
           <p>
-            Today I design and build production AI systems: pipelines, integrations, automations, and tools that actually ship. I care about making things work reliably, not just impressively.
+            The first chapter was games journalism. I wrote for Eurogamer.nl and NG-Gamer.nl, hosted a podcast called BetaWaveRadio, and interviewed indie developers about their love for games and the reasons they were making them. Alongside that I worked in marketing, PR, and project management. Always at the intersection of people, stories, and the things they build.
           </p>
           <p>
-            I write <em>Historian in the Loop</em> because I keep noticing echoes — the same patterns showing up across centuries of technological change. The newsletter is where I work those out in public.
+            Then I became fascinated with another question. How does the technology actually work? I moved into IT, which gave me a solid foundation across most of the domain: servicedesk, business, network, infrastructure, and my great love, Linux.
+          </p>
+          <p>
+            In 2020 everything changed. At Gameye I learned how remote teams actually function. At Unlock I became a Remote Work Champion. At Social Seeder I worked on the product side, learning how to design things people actually use.
+          </p>
+          <p>
+            Somewhere along the way I started building AI systems. Not as a pivot. As the natural next step for someone who has always cared about the space between a tool and the person using it.
+          </p>
+          <p>
+            Today I design and build production AI systems: pipelines, integrations, automations, and tools that actually ship. So far that's meant building AIropa, a European news aggregator; XueCodex, my personal knowledge base with a RAG database; and Kilo Learn, an anti-cognitive-offloading module that won a hackathon. Seven production systems and counting. I care about making things work reliably, not just impressively.
+          </p>
+          <p>
+            I write <em>Historian in the Loop</em> because I keep noticing echoes. The same patterns showing up across centuries of technological change. The railroad mania of the 1840s. The dot-com bubble. Now this. History doesn't repeat, but it rhymes loudly if you know where to listen.
+          </p>
+          <p>
+            The newsletter is where I work those patterns out in public.
           </p>
           <p>
             I believe the best engineers know some history, and the best historians stay curious about the tools shaping their world.

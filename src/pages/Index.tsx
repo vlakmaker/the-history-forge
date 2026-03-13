@@ -8,21 +8,21 @@ const services = [
     title: "Build",
     subtitle: "AI systems & automations",
     description:
-      "Production pipelines, integrations, and tools that actually ship. From prototype to reliable infrastructure.",
+      "Production pipelines, integrations, and tools that actually ship. I've built seven systems as a solo builder, from a European news aggregator to a RAG knowledge base to a hackathon-winning anti-cognitive-offloading module. I know what breaks and how to prevent it.",
   },
   {
     icon: PenLine,
     title: "Write",
     subtitle: "Newsletter & technical storytelling",
     description:
-      "Biweekly essays connecting historical patterns to modern AI developments. Clear thinking, no hype.",
+      "I write Historian in the Loop, a weekly newsletter connecting historical patterns to modern AI developments. Railroad mania predicted the dot-com bubble. The dot-com bubble predicted now. Clear thinking, no hype, real signal.",
   },
   {
     icon: Users,
     title: "Consult",
     subtitle: "AI strategy for teams",
     description:
-      "Helping teams figure out where AI fits — and where it doesn't. Grounded in engineering reality.",
+      "I help teams figure out where AI actually fits, and where it doesn't. I've facilitated paid AI workshops and built fluency frameworks for non-technical teams. Grounded in engineering reality, not vendor promises.",
   },
 ];
 
