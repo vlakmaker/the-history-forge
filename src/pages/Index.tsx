@@ -28,55 +28,34 @@ const services = [
 
 const Index = () => (
   <>
-    {/* Hero — two column */}
-    <section className="container mx-auto px-4 md:px-8 py-16 md:py-28">
-      <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-        {/* Text */}
-        <div className="animate-fade-in">
-          <img src={logo} alt="Historian in the Loop" className="h-16 w-16 mb-6" />
-          <div className="editorial-rule-gold mb-6" />
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-[3.4rem] font-bold text-foreground leading-[1.15] mb-4">
-            Historian in
-            <br />
-            the Loop
-          </h1>
-          <p className="text-lg md:text-xl text-accent font-serif italic mb-6">
-            Where history meets AI engineering
-          </p>
-          <p className="text-muted-foreground leading-relaxed mb-8 max-w-md text-[1.05rem]">
-            I'm Vera Lakmaker — a historian turned AI &amp; automation engineer.
-            I build production systems, write about the patterns connecting past
-            and present technology, and share it all in a biweekly newsletter.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link
-              to="/newsletter"
-              className="inline-flex items-center justify-center px-6 py-3 rounded-md bg-primary text-primary-foreground font-medium text-sm hover:opacity-90 transition-opacity"
-            >
-              Read the newsletter
-            </Link>
-            <Link
-              to="/projects"
-              className="inline-flex items-center justify-center px-6 py-3 rounded-md border border-border text-foreground font-medium text-sm hover:bg-secondary transition-colors"
-            >
-              See what I've built
-            </Link>
-          </div>
-        </div>
-
-        {/* Photo placeholder */}
-        <div className="animate-fade-in hidden md:block" style={{ animationDelay: "0.2s" }}>
-          <div className="aspect-[3/4] rounded-lg bg-card border border-border overflow-hidden relative">
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-muted-foreground/40">
-              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg>
-              <span className="mt-3 text-sm font-serif italic">Photo placeholder</span>
-            </div>
-          </div>
-        </div>
+    {/* Hero — centered */}
+    <section className="container mx-auto px-4 md:px-8 py-20 md:py-32 flex flex-col items-center text-center">
+      <img src={logo} alt="Historian in the Loop" className="h-28 w-28 mb-8 animate-fade-in" />
+      <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-4 animate-fade-in"
+          style={{ animationDelay: "0.1s", opacity: 0 }}>
+        Historian in the Loop
+      </h1>
+      <p className="text-lg md:text-xl text-accent font-serif italic mb-8 animate-fade-in"
+         style={{ animationDelay: "0.2s", opacity: 0 }}>
+        Where history meets AI engineering
+      </p>
+      <p className="max-w-xl text-muted-foreground leading-relaxed mb-10 animate-fade-in"
+         style={{ animationDelay: "0.3s", opacity: 0 }}>
+        I'm Vera Lakmaker — a historian turned AI &amp; automation engineer. I build production systems, write about the patterns connecting past and present technology, and share it all in a biweekly newsletter.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-4 animate-fade-in" style={{ animationDelay: "0.4s", opacity: 0 }}>
+        <Link
+          to="/newsletter"
+          className="inline-flex items-center justify-center px-6 py-3 rounded-md bg-primary text-primary-foreground font-medium text-sm hover:opacity-90 transition-opacity"
+        >
+          Read the newsletter
+        </Link>
+        <Link
+          to="/projects"
+          className="inline-flex items-center justify-center px-6 py-3 rounded-md border border-border text-foreground font-medium text-sm hover:bg-secondary transition-colors"
+        >
+          See what I've built
+        </Link>
       </div>
     </section>
 
