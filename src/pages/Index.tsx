@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "@/assets/historian-in-the-loop-logo.png";
+import logo from "@/assets/HitL.png";
 import { Cpu, PenLine, Users } from "lucide-react";
 
 const services = [
