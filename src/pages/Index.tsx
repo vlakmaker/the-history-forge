@@ -30,7 +30,7 @@ const Index = () => (
   <>
     {/* Hero — centered */}
     <section className="container mx-auto px-4 md:px-8 py-20 md:py-32 flex flex-col items-center text-center">
-      <img src={logo} alt="Historian in the Loop" className="h-36 w-auto mb-10 animate-fade-in" />
+      <img src={logo} alt="Historian in the Loop" className="h-[27rem] w-auto mb-10 animate-fade-in" />
       <p className="max-w-2xl text-lg text-muted-foreground leading-relaxed mb-10 animate-fade-in"
          style={{ animationDelay: "0.1s", opacity: 0 }}>
         I'm Vera Lakmaker — a historian who ended up building AI systems. Not by accident. I've always been interested in what actually happens between a tool and the person using it. Seven production systems later, I'm still asking the same question.
