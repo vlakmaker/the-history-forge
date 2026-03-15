@@ -1,4 +1,4 @@
-import { Mail, Linkedin } from "lucide-react";
+import { Mail, Linkedin, Calendar } from "lucide-react";
 
 const Contact = () => (
   <section className="container mx-auto px-4 md:px-8 py-16 md:py-24 max-w-2xl">
@@ -24,6 +24,15 @@ const Contact = () => (
       >
         <Linkedin size={20} className="text-muted-foreground group-hover:text-accent transition-colors" />
         <span>LinkedIn</span>
+      </a>
+      <a
+        href="https://calendly.com/historianintheloop/30min"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-3 text-foreground hover:text-accent transition-colors group"
+      >
+        <Calendar size={20} className="text-muted-foreground group-hover:text-accent transition-colors" />
+        <span>Schedule a 30-minute meeting</span>
       </a>
     </div>
   </section>
