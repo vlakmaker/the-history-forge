@@ -33,7 +33,7 @@ const Index = () => (
       <img src={logo} alt="Historian in the Loop" className="h-[27rem] w-auto mb-10 animate-fade-in" />
       <p className="max-w-2xl text-lg text-muted-foreground leading-relaxed mb-10 animate-fade-in"
          style={{ animationDelay: "0.1s", opacity: 0 }}>
-        I'm Vera Lakmaker — a historian who ended up building AI systems. Not by accident. I've always been interested in what actually happens between a tool and the person using it. Seven production systems later, I'm still asking the same question.
+        I'm Vera Lakmaker — a historian who ended up building AI systems. Not by accident. I've always been interested in what actually happens between a tool and the person using it. Years of building and experimenting later, I'm still asking the same question.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 animate-fade-in" style={{ animationDelay: "0.2s", opacity: 0 }}>
         <Link
