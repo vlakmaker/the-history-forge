@@ -8,7 +8,7 @@ const services = [
     title: "Build",
     subtitle: "AI systems & automations",
     description:
-      "Production pipelines, integrations, and tools that actually ship. I've built seven systems as a solo builder, from a European news aggregator to a RAG knowledge base to a hackathon-winning anti-cognitive-offloading module. I know what breaks and how to prevent it.",
+      "I build AI systems that solve actual problems. Automations, n8n pipelines, RAG setups — from news aggregators to knowledge bases to a hackathon entry that got people thinking differently about AI and cognition. I've shipped enough to know what breaks early and how to avoid it.",
   },
   {
     icon: PenLine,
