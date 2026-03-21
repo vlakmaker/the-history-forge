@@ -22,7 +22,7 @@ const services = [
     title: "Consult",
     subtitle: "AI strategy for teams",
     description:
-      "I help teams figure out where AI actually fits, and where it doesn't. I've facilitated paid AI workshops and built fluency frameworks for non-technical teams. Grounded in engineering reality, not vendor promises.",
+      "Got a messy process and a vague idea that AI could fix it? That's exactly where I start. I help small teams and early stage startups figure out what to build, how to build it, and sometimes — whether to build it at all.",
   },
 ];
 
